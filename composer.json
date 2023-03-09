@@ -1,0 +1,19 @@
+{
+    "name": "raad/inspire",
+    "description": "it is test function package",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Raad\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raad"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
